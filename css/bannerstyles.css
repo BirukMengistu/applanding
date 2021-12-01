@@ -1,0 +1,148 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-bluedark-color: #1487FD;
+    --primary-bluelight-color: #42A0FF;
+    --primary-yellow-color:#FFBB00;
+    --primary-lightgrey-color:#8A8A8A;
+    --primary-darkgrey-color:#333333;
+    --primary-black-color:#111010;
+}
+
+  
+html, body {
+    font-family: 'Roboto', serif;
+    line-height: 1.5;
+  }
+   
+  
+  html, body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.5;
+    scrollbar-width: none;
+  } */
+  /* ----Banner Daniel Karlsson----- */
+
+  .btn {
+    border: 1px solid transparent;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+.banner {
+    width: 100%;
+    height: 43vh;
+    position: absolute;
+    display: flex;
+    justify-content: center;    
+    background-color: #1487FD;
+    background-image: url(/img/fff.png);
+  }
+  
+.banner-content {
+  width: 80%;  
+  display: flex;       
+  justify-content: space-between;  
+  color: white;    
+}
+.banner-header {
+  width: 80%;        
+  text-align: center;    
+  display: flex;
+  flex-direction: column;
+  justify-content: center;     
+}
+.banner-header h2{
+  justify-content: center;  
+}
+.banner-header h2, p{
+  margin-bottom: 2rem;
+  display: flex;   
+}
+.banner-header p {
+  font-size: .8rem;
+  font-weight: 300;
+}
+#img-phone {  
+  height: 90%;  
+  object-fit: contain;       
+}
+.download {
+  display: flex;    
+  justify-content: center;  
+  flex-direction: row;
+}
+.btn-download:hover {
+
+  background-color: #c2c2c2;
+  transition-timing-function: ease-in;
+  transition: .4s;
+  color: black;
+  cursor: pointer;
+}
+.btn-text {
+    margin-left: 1rem;
+}
+.btn-download span {
+  font-size: 1rem;
+  color: black;  
+  font-weight: 600;
+}
+.btn-download {
+  padding: .8rem 1.5rem;
+  margin-right: 1.5rem;
+  font-size: .6rem;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  text-align: start; 
+  background-color: white;
+  color: #6B6B6B;   
+  z-index: 1;
+}
+
+
+
+@media (min-width: 300px) {
+  
+  .banner-content {
+    width: 100%;
+    justify-content: center;
+  }
+  #img-phone {
+    display: none;
+  }
+}
+@media (min-width: 1200px) {
+  
+  #img-phone {
+    display: flex;
+    height: 90%;
+    position: absolute;
+    right: 0;
+    bottom: 0;  
+  }
+  .banner-content {
+    width: 80%;
+    justify-content: space-between;
+  }
+  .banner-header {
+    width: 60%;    
+    text-align: start;
+  }
+  .banner-header h2{
+    justify-content: start;    
+  }
+  .download {
+    justify-content: start;
+  }
+  .banner-img {
+    height: 100%;
+    position: relative;
+  }
+}
+/* ----End Banner */
