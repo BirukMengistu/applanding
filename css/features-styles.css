@@ -88,7 +88,6 @@ html, body {
   color: var(--primary-yellow-color);
   padding: .3rem 1rem;
   font-size: 14px;
-  font-weight: 400;
 }
 .features-sign {
   background-color: #ffbb0028;
@@ -100,7 +99,7 @@ html, body {
 }
 .features-sign img {
   margin-left: -3px;
-  margin-top: -15px;
+  margin-top: -3px;
 }
 .features-text {
   color: var(--primary-yellow-color);
@@ -109,6 +108,7 @@ html, body {
 @media (max-width: 576px) {
   .container-features {
     min-width: 100%;
+    text-align: center;
   }
   .features-card {
     flex-direction: column;
@@ -116,8 +116,7 @@ html, body {
     margin: auto;
   }
   .features-card-text {
-    margin: .5rem auto;
-    text-align: center;
+    margin: auto;
   }
 }
 @media (max-width: 768px) {
