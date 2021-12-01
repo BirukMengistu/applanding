@@ -10,7 +10,7 @@
   justify-content: space-between;
   display: flex;
   text-align: center;
-  width: 85%;
+  width: 80%;
   margin: auto;
   margin-top: 6rem;
 }
@@ -35,7 +35,7 @@
 .aboutus-title {
   width: fit-content;
   border-radius: .5rem;
-  background-color: #fad5a43a;
+  background-color: #ffbb0028;
   color: var(--primary-yellow-color);
 }
 .aboutus-title h2 {
