@@ -82,17 +82,13 @@ html, body {
   flex-direction: row;
 }
 .features-top-sign {
-  /* background-color: #ffbb0033;
-  padding: .3rem 1rem;
-  border-radius: 7px;
-  height: 30px;
-  width: 87px; */
   width: fit-content;
   border-radius: .5rem;
   background-color: #ffbb0028;
   color: var(--primary-yellow-color);
   padding: .3rem 1rem;
   font-size: 14px;
+  font-weight: 400;
 }
 .features-sign {
   background-color: #ffbb0028;
