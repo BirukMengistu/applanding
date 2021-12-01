@@ -111,7 +111,11 @@ a:hover{
     z-index: 1;
     margin: 0 auto;
     }
- 
+    .navbar-nav {
+      display: flex;
+      flex-direction: column;
+      list-style: none;
+    }
   .navbar::after{
     content:'';
     position:absolute;
@@ -135,25 +139,23 @@ a:hover{
     z-index: 1;
     color: white;
     display: flex;
-    width:90%;
-    justify-content: center;
+    width:80%;
+    margin-left: 10%;
     align-items: center;
        
 }
 
 
-.navbar-nav {
-  display: flex;
-  flex-direction: column;
-  list-style: none;
-}
+
   
 
 .header-card{
      width: auto;
      text-align: center;
-     font-size: 1rem;
      margin: 5%;
+  }
+  .header-card h1{
+    font-size: 2rem;
   }
   
   .header-svg{
