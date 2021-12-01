@@ -1,0 +1,236 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-bluedark-color: #1487FD;
+    --primary-bluelight-color: #42A0FF;
+    --primary-yellow-color:#FFBB00;
+    --primary-lightgrey-color:#8A8A8A;
+    --primary-darkgrey-color:#333333;
+    --primary-black-color:#111010;
+}
+
+  
+html, body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.5;
+  }
+   
+  
+  html, body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.5;
+    scrollbar-width: none;
+    /* overflow-x: hidden; */
+  }
+  
+  body::-webkit-scrollbar {
+    display: none;
+  }
+.container {
+    width: 90%;
+    margin: auto;
+  }
+ 
+  .btn {
+    border: 1px solid transparent;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+
+
+/* NAVBAR */
+
+
+.navbar {
+     
+    width: 100%;
+    height: 50vh;
+    left: 0;
+    position: relative;
+  
+  }
+  /* 
+ navagtion , log , nav-link */
+    
+ .navbar-toggler {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: 1.8rem;
+}
+ .collapse:not(.show) {
+  display: none;
+} 
+/* nav link effects -- start */
+.navbar-nav a{
+    color: white;
+}
+a {
+  padding: 0 .5rem;
+}
+a:hover{
+  text-decoration: none;
+  }
+  .nav-link a:active{
+    content: "";
+    display:block;
+    margin: 0 ;
+    width: 50%;
+    border-bottom: 2px solid var(--primary-yellow-color);
+    padding: 0;
+    padding-bottom: 0.2rem ;
+  }
+  
+  /* nav link effects -- end */
+.navbar-brand h1{
+  font-size: 2rem;
+  font-weight: 700;
+}
+.logo-dot{
+    color: var(--primary-yellow-color);
+}
+.navbar-nav a:focus , 
+.navbar-nav a:hover{  
+ color: var(--primary-yellow-color) ;
+}
+
+
+  /* 
+ End  navagtion , log , nav-link */
+ 
+ 
+/*  header conatiner- start */
+.navbar .container{
+    position: relative;
+    z-index: 1;
+    margin: 0 auto;
+    }
+ 
+  .navbar::after{
+    content:'';
+    position:absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--primary-bluedark-color) url('/img/Group\ 4634@2x.png') ;
+    outline: transparent;
+    opacity: 95%;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    border-radius:0 0 20px 220px;
+   
+  }
+  .text-white{
+    color: white;
+  }
+ 
+  .navbar .header{
+    position: relative;
+    z-index: 1;
+    color: white;
+    display: flex;
+    width:90%;
+    justify-content: center;
+    align-items: center;
+       
+}
+
+
+.navbar-nav {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+  
+
+.header-card{
+     width: auto;
+     text-align: center;
+     font-size: 1rem;
+     margin: 5%;
+  }
+  
+  .header-svg{
+    background-image: url('/img/header-svg.svg');
+    background-repeat: no-repeat;
+    width:300px;
+    height:400px;
+    z-index: 1;
+  }
+
+ 
+ 
+  .btn-getTheApp{
+      background-color: var(--primary-yellow-color);
+      color: white;
+
+  }  
+
+        .fa-play-circle{
+            background-color: white;
+            color: var(--primary-yellow-color);
+            border-radius: 50px;
+            position: relative;
+            margin-right: 0.5rem;
+            outline: 2px double var(--primary-yellow-color);
+            outline-offset: 2px;
+        }
+  
+      .header-svg{
+        display: none;
+        
+        }
+      .btn-box div{
+            align-items: center;
+            margin-bottom: 1rem;
+        }
+
+      .btn-downloadnow{
+        background-color: var(--primary-bluedark-color); 
+        color: white;
+        border:1px solid white;
+        line-height: 1rem;
+      }
+  
+      .btn-watchvideo{
+       
+        background-color: var(--primary-bluedark-color);  
+        display: inline-flex; /* make element size relative to content */
+        align-items: center; /* vertical alignment of items */
+        line-height: 1rem; /* vertically size by height, line-height or padding */
+        justify-content: center;
+      }
+      
+    
+   
+    .btn-downloadnow{
+      background-color: var(--primary-bluelight-color);
+      color: white;
+      border:1px solid white;
+  }
+  
+   
+   
+
+
+
+
+   
+
+  
+
+  
+  
+  
+  
+  
+  
+
+    
+ 

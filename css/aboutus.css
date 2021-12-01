@@ -1,0 +1,132 @@
+/* ABOUT US */
+
+
+#aboutus{
+  width: 80%;
+
+}
+.container-flex {
+    width: 80%;
+    margin: auto;
+    margin-top: 4em;
+    display: flex;
+  }
+  .container-logo {
+    justify-content: space-between;
+    display: flex;
+    text-align: center;
+    width: 85%;
+    margin: auto;
+    margin-top: 6rem;
+  }
+/*   .iphone-bg img {
+    height: 25rem;
+    background-image: url("/img/bg.png");
+    background-repeat: no-repeat; 
+    background-size: contain;
+    background-position: center;
+    text-align: center;
+    padding-left: 6.9rem;
+    padding-right: 6.9rem;
+    margin-left: -6.9rem; 
+   } */
+  .aboutus-container {
+    margin-top: 3rem ;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    /* margin-left: 8rem; */
+  } 
+  .aboutus-title {
+    width: fit-content;
+    border-radius: .5rem;
+    background-color: #fad5a43a;
+    color: var(--primary-yellow-color);
+  }
+  .aboutus-title h2 {
+    padding: .5rem 1rem 0.3rem 1rem;
+    font-size: 1rem;
+  }
+  .aboutus-container h1 {
+    font-weight: 700;
+  }
+  .aboutus-inline {
+    display: inline-block;
+  }
+  .aboutus-container p {
+    color: #8A8A8A;
+  }
+  .btn-download-aboutus {
+    width: 13.5rem;
+    padding: .8rem 1.5rem;
+    margin-right: .8rem;
+    margin-top: .7rem;
+    font-size: .7rem;
+    border-radius: 15px;
+    display: inline-flex;
+    align-items: center;
+    text-align: start; 
+    background-color: #F8F8F8;
+    color: #6B6B6B; 
+    border: none;
+  
+  }
+  .btn-download-aboutus:hover {
+    background-color: #c2c2c2;
+    transition-timing-function: ease-in;
+    transition: .3s;
+    color: #black;
+    cursor: pointer;
+  }
+  
+  
+  .btn-text-aboutus {
+      margin-left: 1rem;
+  }
+  .btn-download-aboutus span {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: black;  
+  }
+  
+  
+    @media (max-width: 750px) {
+      .ec-logo3 {
+        display: none;
+      }
+      .ec-logo {
+        padding-right: 1rem;
+      }
+      .container-logo {
+        justify-content: space-between;
+       
+      }
+    }
+    @media (max-width: 905px) {
+      
+      .iphone-bg img {
+        display: none;
+      }
+    } 
+    @media (max-width: 1118px) {
+      .aboutus-container {
+        margin-left: 4rem;
+      }
+      .iphone-bg img {
+        height: 20rem;
+      }
+    } 
+    @media (max-width: 990px) {
+      .aboutus-container {
+      margin-left: 0rem;
+    }
+   
+    @media (max-width: 1018px) {
+      .ec-logo4 {
+        display: none;
+      }
+    }
+  }
+    
+  
+  /* END ABOUT US   */

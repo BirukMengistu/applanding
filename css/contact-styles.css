@@ -1,0 +1,53 @@
+#contactus {
+    width: 100%;
+   display: flex;
+   flex-direction:column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+  }
+  
+  #contactus .contact-header{
+     width:50%; 
+    
+    }
+  .form{
+    width:60%;
+    display: flex;
+    flex-direction: column;
+  }
+   
+  .form .input-box {
+     width:100%;
+     display: flex;
+     flex-direction: row; 
+     margin: 0.6rem auto;  
+     line-height: 2rem;
+    
+    }
+    .input-box input{
+      width :50%;
+      padding: 1rem auto;
+      
+      
+    }
+    .input-box #username{
+     margin-right: 1rem;
+    }
+    .input-box input ,  textarea {
+     background-color: #ececec;
+     border: none;
+     overflow: auto;
+     outline: none;
+     border-radius: 5px;
+     }
+    .form button{
+      width:20%;
+      margin: 0.6rem auto;  
+      background-color: var(--primary-bluedark-color);
+      color: whitesmoke;
+      border: none;
+      line-height: 2rem;
+      border-radius: 5px;
+      
+    }

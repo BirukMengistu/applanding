@@ -1,0 +1,120 @@
+@media (min-width: 768px) {
+    .container{
+        width: 768px;
+    }
+ 
+    .navbar-toggler {
+        display: none;
+      }
+      .collapse:not(.show) {
+        
+        display: block;
+      }
+     .container .navbar-nav {
+           width: 100%;
+           display: flex;
+           flex-direction: row;
+           justify-content: space-between;
+           padding: 0 1rem;
+           margin: 0 0.6rem;  
+      }
+     
+      
+      .header-card{
+       width: 50%;
+       text-align: center;
+       font-size: 1rem;
+       margin: 5%;
+      }
+     
+      .header-svg{
+       display: block;
+     }
+     .btn {
+       width: auto;
+     }
+     .navbar::after{
+       content: '';
+       position: absolute;
+       bottom: 0;
+       left: 0;
+       width:100%;
+       height:100vh;
+       background: var(--primary-bluedark-color) url('/img/Group\ 4634@2x.png') ;
+       outline: transparent;
+       opacity: 95%;
+       background-repeat: no-repeat; 
+       background-position: center;
+       background-size: cover;
+       border-radius:10rem;
+       transform:rotate(-18deg);
+      }
+          
+  }
+   
+   @keyframes ripple {
+     from {
+       transform: scale(0);
+       opacity: 1;
+     }
+     to{
+       transform: scale(1);
+       opacity: 0;
+     }
+   }
+  
+ 
+  
+ 
+  
+   
+   @media (min-width: 905px) {
+     .container {
+       max-width: 960px;
+     }
+     .navbar-toggler {
+         display: none;
+       }
+       .collapse:not(.show) {
+         
+         display: block;
+       }
+       .navbar-nav {
+         flex-direction: row;
+          padding: 0.2rem 0.2rem;
+          margin: 0 0.6rem;
+       }
+       a {
+         padding: 0 .5rem;
+       }
+     
+       .header-svg{
+         display: block;
+       }
+       .btn {
+         width: auto;
+       }
+       .navbar::after{
+         content: '';
+         position: absolute;
+         bottom: 0;
+         left: 0;
+         width:100%;
+         height:100vh;
+         background: var(--primary-bluedark-color) url('/img/Group\ 4634@2x.png') ;
+         outline: transparent;
+         opacity: 95%;
+         background-repeat: no-repeat; 
+         background-position: center;
+         background-size: cover;
+         border-radius:10rem;
+         transform:rotate(-18deg);
+        }
+   }
+  
+   @media (min-width: 1200px) {
+     .container {
+       max-width: 1140px;
+     }
+   }
+ 

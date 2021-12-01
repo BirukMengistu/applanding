@@ -1,0 +1,166 @@
+
+/* ---------- Container for the orbiting circles animation ---------- */
+/* ---------- Container for the orbiting circles animation ---------- */
+.animation-container{
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10rem;
+    margin-top: 10rem;
+
+}
+
+
+
+.phone{
+    position: absolute;
+    transform: scale(.8);
+
+    
+}
+
+
+
+#circle-orbit-container {
+    position: relative;
+    top:0;
+    left: 0px;
+    height: 400px;
+    width: 400px;
+    z-index: -1;
+
+  }
+
+    .circle {
+        position: absolute;
+        top: 12px;
+        left: 12px;
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        border: 2px solid  rgb(124, 124, 124);
+        position: absolute;
+        z-index: -5;
+    
+      }
+
+    .circle-outer {
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        border: 2px solid  rgb(124, 124, 124);
+        position: absolute;
+        z-index: -5;
+    
+      }
+
+
+  
+  .animate {
+    animation-name: ripple;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+  }
+  #c1 {
+    animation-delay: 0s;
+  }
+  #c2 {
+    animation-delay: 1s;
+  }
+  #c3 {
+    animation-delay: 2s;
+  }
+  #c4 {
+    animation-delay: 0s;
+  }
+  #c5 {
+    animation-delay: 1s;
+  }
+  #c6 {
+    animation-delay: 2s;
+  }
+  
+
+  
+  /* ---------- Middle orbit - This is the circles second closest to the central point ---------- */
+  #middle-orbit {
+    position: absolute;
+ 
+    width: 400px;
+    height: 400px;
+    border: 1px solid #3d3d3d23;
+    border-radius: 100%;
+    -webkit-animation: spin-right 15s linear infinite;
+    animation: spin-right 12s linear infinite;
+    
+  }
+  
+  /* ---------- Repeating styles for the inner orbiting circles ---------- */
+  .middle-orbit-cirlces {
+    animation: none;
+    border: none;
+    position: absolute;
+    top: 24px;
+    left: 24px;
+    height: 10px;
+    width: 10px;
+    background-color: #e4b20d;
+    z-index: -2;
+    
+  }
+  
+  /* ---------- Outer orbit - This is the circles furthest away from the central point ---------- */
+  #outer-orbit {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    width: 250px;
+    height: 250px;
+    border: 1px solid #3d3d3d23;
+    border-radius: 100%;
+    -webkit-animation: spin-right 20s linear infinite;
+    animation: spin-right 20s linear infinite;
+  }
+  
+  /* ---------- Repeating styles for the outer orbiting circles ---------- */
+  .outer-orbit-cirlces {
+    animation: none;
+    border: none;
+    position: absolute;
+    top: 37px;
+    left: 37px;
+    height: 10px;
+    width: 10px;
+    background-color: #4c83eb;
+    z-index: -2;
+  }
+  
+  /* ---------- Animation ---------- */
+
+
+  
+@keyframes ripple {
+  from {
+    transform: scale(0);
+    opacity: 1;
+  }
+  to{
+    transform: scale(1);
+    opacity: 0;
+  }
+}
+  @keyframes spin-right {
+    100% {
+      -webkit-transform: rotate(360deg);
+      -moz-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+      -o-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }

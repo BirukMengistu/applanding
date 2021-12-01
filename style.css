@@ -1,0 +1,551 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-bluedark-color: #1487FD;
+    --primary-bluelight-color: #42A0FF;
+    --primary-yellow-color:#FFBB00;
+    --primary-lightgrey-color:#8A8A8A;
+    --primary-darkgrey-color:#333333;
+    --primary-black-color:#111010;
+}
+
+  
+html, body {
+    font-family: 'Roboto', serif;
+    line-height: 1.5;
+  }
+   
+  
+  html, body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.5;
+    scrollbar-width: none;
+    /* overflow-x: hidden; */
+  }
+  
+  body::-webkit-scrollbar {
+    display: none;
+  }
+.container {
+    width: 100%;
+    margin: auto;
+  }
+ 
+  .btn {
+    border: 1px solid transparent;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+
+
+
+
+
+/* NAVBAR */
+   
+
+  
+  .spinner-container {
+    position: relative;
+    right: 143px;
+    bottom: 22px;
+    z-index: -1;
+    
+  }
+  
+  .circle {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 8px solid  wheat;
+    position: absolute;
+    z-index: 1;
+
+  }
+  
+  .animate {
+    animation-name: ripple;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+  }
+  #c1 {
+    animation-delay: 0s;
+  }
+  #c2 {
+    animation-delay: 1s;
+  }
+  #c3 {
+    animation-delay: 2s;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  #contactus {
+    width: 100%;
+   display: flex;
+   flex-direction:column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+  }
+  
+  #contactus .contact-header{
+     width:50%; 
+    
+    }
+  .form{
+    width:60%;
+    display: flex;
+    flex-direction: column;
+  }
+   
+  .form .input-box {
+     width:100%;
+     display: flex;
+     flex-direction: row; 
+     margin: 0.6rem auto;  
+     line-height: 2rem;
+    
+    }
+    .input-box input{
+      width :50%;
+      padding: 1rem auto;
+      
+      
+    }
+    .input-box #username{
+     margin-right: 1rem;
+    }
+    .input-box input ,  textarea {
+     background-color: #FBFBFB;
+     border: none;
+     overflow: auto;
+     outline: none;
+     }
+    .form button{
+      width:20%;
+      margin: 0.6rem auto;  
+      background-color: var(--primary-bluedark-color);
+      color: whitesmoke;
+      border: none;
+      line-height: 2rem;
+      border-radius: 5px;
+      
+    }
+    
+ @media (min-width: 768px) {
+   .container{
+       width: 768px;
+   }
+
+   .navbar-toggler {
+       display: none;
+     }
+     .collapse:not(.show) {
+       
+       display: block;
+     }
+    .container .navbar-nav {
+          width: 100%;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          padding: 0 1rem;
+          margin: 0 0.6rem;  
+     }
+     .header-card h1{
+       text-align: left;
+     }
+
+      /*  <end of Nav css>
+       */
+     
+ 
+
+     
+     .header-card p{
+       text-align: left;
+     }
+     
+     .header-card div{
+       text-align: left;
+     }
+        .header svg{
+           display: block;
+         }
+         
+ }
+  
+  @keyframes ripple {
+    from {
+      transform: scale(0);
+      opacity: 1;
+    }
+    to{
+      transform: scale(1);
+      opacity: 0;
+    }
+  }
+  /* ANIMATION_END - Fredrik */
+ 
+
+    .navbar-toggler {
+        display: none;
+      }
+      .collapse:not(.show) {
+        
+        display: block;
+      }
+      .navbar {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        bottom: 0;
+        left: 0;
+      }
+  /*    .container .navbar-nav {
+           width: 100%;
+           display: flex;
+           flex-direction: row;
+           justify-content: space-between;
+           padding: 0 1rem;
+           margin: 0 0.6rem;  
+      }
+      .navbar::after{
+        content: '';
+        position: absolute;
+        bottom: 0;
+        width:100%;
+        height: 200%;
+        background: var(--primary-bluedark-color) url('./img/Group\ 4634@2x.png') ;
+        outline: transparent;
+        opacity: 95%;
+        background-repeat: no-repeat; 
+        background-size: 100%;
+        border-radius:12rem ;
+        transform:rotate(-22deg);
+       
+       }
+      .header-card h1{
+        text-align: left;
+      }
+      
+      .header-card p{
+        text-align: left;
+      }
+      
+      .header-card div{
+        text-align: left;
+      }
+         .header svg{
+            display: block;
+          } */
+          
+  
+  .btn-downloadnow{
+    background-color: var(--primary-bluelight-color);
+    color: white;
+    border:1px solid white;
+}
+
+/* Features */ 
+#features p {
+  color: var(--primary-lightgrey-color);
+}
+#features h4, h1 {
+  font-weight: 750;
+}
+.features-main {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.features-grid {
+  display: inline-grid;
+  grid-template-columns: auto auto;
+  margin-top: 3rem;
+  grid-gap: 30px 70px;
+}
+.features-top-sign {
+  background-color: rgb(255, 187, 0, 0.2);
+  padding: .5rem 1rem;
+  border-radius: 7px;
+}
+.features-sign {
+  background-color: rgb(255, 187, 0, 0.2);
+  padding: 1rem 1rem;
+  border-radius: 8px;
+}
+.features-text {
+  color: var(--primary-yellow-color);
+}
+ 
+
+
+
+
+
+/* Section - Carousel - FREDRIK*/
+
+.container-carousel{
+  max-width: 100%;
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+  margin: auto;
+}
+#text-carousel h1{
+  text-align: center;
+  font-weight:bolder;
+  font-size: 40px ;
+}
+#text-carousel p{
+  color: #8A8A8A;
+  text-align: center;
+  font-size: 16px;
+}
+
+/* Swiper */
+
+ .swiper {
+  width: 70vw;
+  height: 100%;
+} 
+.swiper-slide {
+  background-position: center;
+  text-align: center;
+  width: 80%;
+  height: 100%;
+  padding: 45px 30px !important;
+}
+.swiper-slide img {
+  align-items: center;
+  justify-content: center;
+  max-height: 350px;
+  transition: transform 100ms ease;
+}
+.active-slide img {
+  transform: scale(1.2);
+
+}
+
+/* Swiper_END--Fredrik--*/
+
+
+/* Statistics -- Start -- Fredrik Lundkvist */
+
+.stats{
+  display: block;
+  width: 80%;
+  padding-bottom: 2rem;
+  margin: auto;
+
+  background-image: url('img/carousel/Layer\ 815.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+
+.text-stats{
+  
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text-stats h1{
+  text-align: center;
+  font-weight:bolder;
+  font-size: 40px;
+}
+
+
+.text-stats p{
+  color: #8A8A8A;
+  text-align: center;
+  font-size: 16px;
+}
+
+/* .bg-img{
+  position:absolute;
+  z-index: -1;
+  
+  border: 1px solid black;
+} */
+.grid-container{
+  display: grid;
+  grid-template-columns: 100px  100px  100px  100px;
+  grid-gap: 10%;
+  align-items: center;
+  justify-content: center;
+ 
+}
+
+.grid-container h1{
+  display: grid;
+  margin: auto;
+  font-size: 30px;
+  font-weight: bold;
+  color:#3096FE ;
+}
+
+.grid-container p{
+  justify-content: center;
+  font-size: 20px;
+  text-align: center;
+  color: #333333;
+
+}
+
+
+
+
+/* Carousel -end - Fredrik */
+
+
+
+
+
+
+/* FOOTER - FREDRIK */
+
+#footer{
+  margin-top:4rem ;
+  position: relative;
+  background-image: url('img/footer/Rectangle\ 1915.png');
+  background-size: cover;
+  height: 250px;
+
+}
+#footer h1{
+
+  color: #FFF;
+  font-weight: bolder;
+  font-size: 41px;
+  display: flex;
+ padding-top:  2.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+#footer span{
+  color: var(--primary-yellow-color);
+}
+.foot-bg{
+  position: absolute;
+
+  top: 0%;
+}
+.foot-bg img{
+/*   background-position: center center; */
+  overflow:hidden;
+  width: 100vw;
+  height: 250px;
+  max-height: 100vw;
+
+  border-image-repeat: no-repeat;
+
+}
+
+
+.footer-nav{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px ;
+  list-style: none;
+}
+.footer-nav a{
+  color: white;
+  margin: 0 15px; 
+}
+
+
+#footer .social-media{
+
+  /* width: 100%;  */
+  display: flex;
+  margin-top: 2rem;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  
+}
+#footer .social-media i{
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: rgba(224, 255, 255, 0.185);
+  margin: 10px;
+  line-height: 1.9em;
+  
+}
+/* FOOTER_END--Fredrik */
+
+
+
+  @media (min-width: 720px) {
+    .container{
+        width: 720px;
+    }
+    .header svg{
+      display: block;
+    }
+    .swiper {
+      width: 80vw;
+  }
+  
+  @media (min-width: 905px) {
+    .container {
+      max-width: 960px;
+    }
+    .navbar-toggler {
+        display: none;
+      }
+      .collapse:not(.show) {
+        
+        display: block;
+      }
+   
+    
+      a {
+        padding: 0 .5rem;
+      }
+      .header svg{
+        display: block;
+      }
+      .btn {
+        width: auto;
+      }
+  }
+ 
+  @media (min-width: 1200px) {
+
+    .container {
+      max-width: 1140px;
+    }
+  }
+
+            .container {
+            max-width: 1140px;
+            }
+             
+          
+        }
+
