@@ -32,7 +32,7 @@
 .aboutus-container {
   display: flex;
   flex-direction: column;
-  
+  margin-bottom: 1.5rem;
   align-items: left;
   margin-left: 8rem;
 } 
@@ -44,6 +44,8 @@
   padding: .3rem 1rem;
   font-size: 14px;
   font-weight: 400;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 .aboutus-container h1 {
   font-weight: 700;
@@ -59,7 +61,6 @@
   padding: .8rem 1.5rem;
   margin-right: .8rem;
   margin-top: .7rem;
-  margin-bottom: 1.5rem;
   font-size: .7rem;
   border-radius: 15px;
   display: inline-flex;
