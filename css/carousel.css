@@ -93,12 +93,12 @@ html, body {
 /* Statistics -- Start -- Fredrik Lundkvist */
 
 .stats{
-  display: block;
-  width: 80%;
+  display: grid;
+  /* width: 80%; */
   padding-bottom: 2rem;
   margin: auto;
 
-  background-image: url('img/carousel/Layer\ 815.png');
+  background-image: url('/img/carousel/Layer\ 815.png');
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -133,8 +133,6 @@ html, body {
 } */
 .grid-container{
   display: grid;
-  grid-template-columns: 100px  100px  100px  100px;
-  grid-gap: 10%;
   align-items: center;
   justify-content: center;
  
@@ -160,7 +158,24 @@ html, body {
 
 
 
-
+/* @media (max-width: 540px){
+  .row{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+@media (min-width: 540px){
+  .row{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+  .col-sm h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+} */
 
 
 
