@@ -98,7 +98,11 @@ html, body {
   padding-bottom: 2rem;
   margin: auto;
 
+
   background-image: url('/img/carousel/Layer\ 815.png');
+
+
+
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -106,7 +110,6 @@ html, body {
 
 
 .text-stats{
-  
   justify-content: space-between;
   align-items: center;
 }
