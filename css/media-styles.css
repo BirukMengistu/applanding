@@ -1,0 +1,282 @@
+ @media (min-width: 768px) {
+   .container{
+       width: 768px;
+   }
+
+   .navbar-toggler {
+       display: none;
+     }
+     .collapse:not(.show) {
+       display: block;
+     }
+    .container .navbar-nav {
+          width: 100%;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          padding: 0 1rem;
+          margin: 0 0.6rem;  
+     }
+         
+        .header .header-card h1{
+          font-weight: 500;
+        }
+        .header-svg{
+           display: block;
+           width: 15rem;
+           height: 18rem;
+         }
+         
+ }
+  
+  @keyframes ripple {
+    from {
+      transform: scale(0);
+      opacity: 1;
+    }
+    to{
+      transform: scale(1);
+      opacity: 0;
+    }
+  }
+ 
+
+
+/* Features */ 
+
+#features .container{
+  width:100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}
+#features p {
+  color: var(--primary-lightgrey-color);
+}
+#features h4, h1 {
+  font-weight: 750;
+}
+.features-main {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.features-grid {
+  display: inline-grid;
+  grid-template-columns: auto auto;
+  margin-top: 3rem;
+  grid-gap: 30px 70px;
+}
+.features-top-sign {
+  background-color: rgb(255, 187, 0, 0.2);
+  padding: .5rem 1rem;
+  border-radius: 7px;
+}
+.features-sign {
+  background-color: rgb(255, 187, 0, 0.2);
+  padding: 1rem 1rem;
+  border-radius: 8px;
+}
+.features-text {
+  color: var(--primary-yellow-color);
+}
+ 
+
+
+
+
+
+/* Section - Carousel - FREDRIK*/
+
+
+.container-carousel{
+  max-width: 80%;
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+  margin: auto;
+}
+
+
+#text-carousel h1{
+  text-align: center;
+  font-weight:bolder;
+  font-size: 30px;
+}
+#text-carousel p{
+  color: #8A8A8A;
+  text-align: center;
+  font-size: 15px;
+
+
+}
+/* Swiper */
+
+
+/* .swiper {
+  width: 100%;
+  height: 100%;
+
+} */
+
+
+
+.swiper-slide {
+  background-position: center;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  padding: 45px 30px !important;
+  
+
+  /* Center slide text vertically */
+
+
+}
+
+.swiper-slide img {
+  display: block;
+  max-height: 350px;
+ /*  max-width: 100px; */
+  transition: transform 100ms ease;
+}
+.active-slide img {
+  transform: scale(1.2);
+  text-align: center;
+}
+/* Swiper -end */
+
+
+
+
+.stats{
+  display: block;
+  width: 80%;
+  padding-bottom: 2rem;
+  margin: auto;
+  background-image: url('img/carousel/Layer\ 815.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+
+.text-stats{
+  
+  justify-content: space-between;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.text-stats h1{
+  text-align: center;
+  font-weight:bolder;
+  font-size: 30px;
+}
+
+
+.text-stats p{
+  color: #8A8A8A;
+  text-align: center;
+  
+  
+  font-size: 15px;
+}
+
+
+.grid-container{
+  display: grid;
+  
+  grid-template-columns: 100px  100px  100px  100px;
+  grid-gap: 10%;
+  align-items: center;
+  justify-content: center;
+ 
+}
+
+.grid-container h1{
+  display: grid;
+  margin: auto;
+  font-size: 30px;
+  font-weight: bold;
+  color:#3096FE ;
+}
+
+.grid-container p{
+  font-size: 20px;
+  text-align: center;
+  color: #333333;
+
+}
+
+
+/* Carousel -end - Fredrik */
+
+
+
+
+
+  @media (min-width: 720px) {
+    .container{
+        width: 720%;
+    }
+    .navbar {
+      width: 100%;
+      height: 50vh;
+      position: relative;
+      bottom: 0;
+      left: 0;
+     
+      margin-bottom: 10%;
+    }
+    .navbar::after{
+      content: '';
+      position: absolute;
+      bottom: 0;
+      width:100%;
+      height: 200%;
+      background: var(--primary-bluedark-color) url('/img/Group-4634@2x.png') ;
+      outline: transparent;
+      opacity: 95%;
+      background-repeat: no-repeat; 
+      background-size: 100%;
+      border-radius:12rem ;
+      transform:rotate(-16deg);
+     }
+     
+  
+  }
+  
+  @media (min-width: 905px) {
+    .container {
+      max-width: 960px;
+    }
+    .navbar-toggler {
+        display: none;
+      }
+      .collapse:not(.show) {
+        
+        display: block;
+      }
+      .navbar-nav {
+        flex-direction: row;
+         padding: 0.2rem 0.2rem;
+         margin: 0 0.6rem;
+      }
+      a {
+        padding: 0 .5rem;
+      }
+      .header-svg{
+        display: block;
+      }
+      .btn {
+        width: auto;
+      }
+  }
+ 
+  @media (min-width: 1200px) {
+    .container {
+      max-width: 1140px;
+    }
+  }

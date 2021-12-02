@@ -1,45 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap');
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-:root{
-    --primary-bluedark-color: #1487FD;
-    --primary-bluelight-color: #42A0FF;
-    --primary-yellow-color:#FFBB00;
-    --primary-lightgrey-color:#8A8A8A;
-    --primary-darkgrey-color:#333333;
-    --primary-black-color:#111010;
-}
-
-  
-html, body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    line-height: 1.5;
-  }
-   
-  
-  html, body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    line-height: 1.5;
-    scrollbar-width: none;
-    /* overflow-x: hidden; */
-  }
-  
-  body::-webkit-scrollbar {
-    display: none;
-  }
-.container {
-    width: 90%;
-    margin: auto;
-  }
- 
-  .btn {
-    border: 1px solid transparent;
-    border-radius: 5px;
-    cursor: pointer;
-  }
 
 
 
@@ -47,13 +5,11 @@ html, body {
 
 
 .navbar {
-     
     width: 100%;
-    height:23rem;
-    bottom: 0;
-    left: 0;
+    height: auto;
+    top: 0;
     position: relative;
-    margin-bottom: 10%;
+   
   }
   /* 
  navagtion , log , nav-link */
@@ -107,18 +63,20 @@ a:hover{
  
 /*  header conatiner- start */
 .navbar .container{
-    position: relative;
     z-index: 1;
-    margin: 0 auto;
+    margin-top: 0;
+  
     }
     .navbar-nav {
       display: flex;
       flex-direction: column;
       list-style: none;
+     
     }
   .navbar::after{
     content:'';
     position:absolute;
+    bottom: 0%;
     left: 0;
     width: 100%;
     height: 100%;
@@ -141,18 +99,18 @@ a:hover{
     display: flex;
     width:80%;
     margin-left: 10%;
-    align-items: center;
+    line-height: 1rem;
+    margin-top: 1rem;
        
 }
 
-
-
-  
+.header .header-card h1{
+  font-weight: 400;
+}
 
 .header-card{
      width: auto;
      text-align: center;
-     margin: 5%;
   }
   .header-card h1{
     font-size: 2rem;
