@@ -148,11 +148,4 @@
     }
   }
 
-  @media (min-width: 570px){
-    .grid-container .row{
-      grid-template-areas:
-      'div' 'div' 
-      'div' 'div';
-      
-    }
-  }
+

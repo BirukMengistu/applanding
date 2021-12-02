@@ -54,6 +54,7 @@
 
 a:hover{
   color:var(--primary-yellow-color); 
+  text-decoration: none;
   
 }
 
