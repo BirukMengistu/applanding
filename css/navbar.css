@@ -187,12 +187,12 @@ a:hover{
  width:100%;
  height: 160%;
  background: none;
- background: var(--primary-bluedark-color) url('/img/Group-4634@2x.png') ;
+ background:  var(--primary-bluedark-color)url('/img/Group-4634@2x.png');
  outline: transparent;
  opacity: 95%;
  background-repeat: no-repeat; 
  background-size:100% ;
  background-position: cover;
- 
+ border-radius: 0  0 68px 10px;
 
 }
