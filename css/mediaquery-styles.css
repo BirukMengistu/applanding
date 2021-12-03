@@ -1,8 +1,8 @@
 @media (min-width: 768px) {
-    .container{
-        width: 768px;
+  .nav-header .container{
+        width: 100%;
     }
- 
+    
     .navbar-toggler {
         display: none;
       }
@@ -10,45 +10,47 @@
         
         display: block;
       }
-     .container .navbar-nav {
-           width: 100%;
-           display: flex;
-           flex-direction: row;
-           justify-content: space-between;
-           padding: 0 1rem;
-           margin: 0 0.6rem;  
+      .container .navbar-nav {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0 1rem;
+        margin: 0 0.6rem;  
+          }
+   .main-nav::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width:100%;
+    height: 160%;
+    background: none;
+    background: var(--primary-bluedark-color) url('/img/Group-4634@2x.png') ;
+    outline: transparent;
+    opacity: 95%;
+    background-repeat: no-repeat; 
+    background-size: 100%;
+    border-radius:12rem ;
+    transform:rotate(-16deg);
+   }
+   .header .header-card{
+        width: 40%;
+        justify-content: center;
+        align-content: center;
+        color: aliceblue;
       }
-     
-      
-      .header-card{
-       width: 50%;
-       text-align: center;
-       font-size: 1rem;
-       margin: 5%;
+      .header .header-card h1{
+        color:white ;
+        font-weight: 600;
       }
-     
+      .header .header-card h1 ,  .header .header-card p{
+        text-align: center;
+      }
       .header-svg{
-       display: block;
-     }
-     .btn {
-       width: auto;
-     }
-     .navbar::after{
-       content: '';
-       position: absolute;
-       bottom: 0;
-       left: 0;
-       width:100%;
-       height:100vh;
-       background: var(--primary-bluedark-color) url('/img/Group\ 4634@2x.png') ;
-       outline: transparent;
-       opacity: 95%;
-       background-repeat: no-repeat; 
-       background-position: center;
-       background-size: cover;
-       border-radius:10rem;
-       transform:rotate(-18deg);
-      }
+         display: block;
+         width: 15rem;
+         height: 25rem;
+       }
           
   }
    
@@ -69,8 +71,8 @@
   
    
    @media (min-width: 905px) {
-     .container {
-       max-width: 960px;
+    .main-nav .container {
+       max-width: 75%;
      }
      .navbar-toggler {
          display: none;
@@ -91,25 +93,7 @@
        .header-svg{
          display: block;
        }
-       .btn {
-         width: auto;
-       }
-       .navbar::after{
-         content: '';
-         position: absolute;
-         bottom: 0;
-         left: 0;
-         width:100%;
-         height:100vh;
-         background: var(--primary-bluedark-color) url('/img/Group\ 4634@2x.png') ;
-         outline: transparent;
-         opacity: 95%;
-         background-repeat: no-repeat; 
-         background-position: center;
-         background-size: cover;
-         border-radius:10rem;
-         transform:rotate(-18deg);
-        }
+    
    }
   
    @media (min-width: 1200px) {
@@ -124,10 +108,10 @@
     .container{
         width: 720px;
     }
-
     .swiper {
       width: 80vw;
-  }
+    }
+   }
   
   @media (min-width: 905px) {
     .container {
@@ -143,10 +127,8 @@
     }
   }
 
-    .container {
-      max-width: 1140px;
-    }
-  }
+  
+  
 
   @media (min-width: 570px){
     .grid-container .row{
