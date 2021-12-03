@@ -1,7 +1,8 @@
-#contactus {
+    #contactus {
     padding: relative;
     width: 100%;
-   display: flex;
+    margin-top: 5rem;
+    display: flex;
     flex-direction:column;
     justify-content: center;
     align-items: center;
@@ -10,10 +11,17 @@
   
   #contactus .contact-header{
      width:50%; 
-     margin-top: 2rem;
-    
     }
 
+    #contactus .contact-header h1{
+     margin-top: 3rem;
+    }
+      
+.contact-header p{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
   .form{
     width:60%;
     display: flex;
