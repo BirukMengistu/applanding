@@ -86,3 +86,15 @@ a:hover{
   background-color: #ffbb00b4;
 }
 /* FOOTER_END--Fredrik */
+
+
+@media(max-width:  620px){
+  .footer-nav a{
+    font-size: smaller;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+
+
+  }
+}

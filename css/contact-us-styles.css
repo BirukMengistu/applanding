@@ -10,8 +10,10 @@
   
   #contactus .contact-header{
      width:50%; 
+     margin-top: 2rem;
     
     }
+
   .form{
     width:60%;
     display: flex;
