@@ -1,5 +1,10 @@
 
 /* ABOUT US - JONAS ÅSTRÖM*/
+
+#aboutus{
+  margin-top: 15%;
+}
+
 .container-flex {
   width: 80%;
   margin: auto;
