@@ -80,7 +80,7 @@
   background-color: #c2c2c2;
   transition-timing-function: ease-in;
   transition: .3s;
-  color: #black;
+  color: black;
   cursor: pointer;
 
 }
