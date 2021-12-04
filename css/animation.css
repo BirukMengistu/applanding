@@ -1,11 +1,13 @@
+
+
+/* Fredrik Lundkvist */
+
 .spinner-container {
     position: relative;
     right: 125.5px;
     bottom: 12px;
     z-index: 2;
-    
   }
-  
   .circle {
     height: 40px;
     width: 40px;
@@ -13,9 +15,7 @@
     border: 2px solid  wheat;
     position: absolute;
     z-index: 1;
-
   }
-  
   .animate {
     animation-name: ripple;
     animation-duration: 3s;
