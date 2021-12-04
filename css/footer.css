@@ -57,11 +57,8 @@
 }
 a:hover{
   color:var(--primary-yellow-color); 
-<<<<<<< HEAD
-=======
   text-decoration: none;
   
->>>>>>> fe54f397e0c4b036523c02884485a265b7c0ad9f
 }
 
 #footer .social-media{
