@@ -37,16 +37,23 @@
 
 
 .footer-nav{
+  width:100%;
   display: flex;
-  align-items: center;
+  text-align: left;
   justify-content: center;
-  margin: 20px ;
+  padding: 0 0.5rem;
+  font-size: .8rem;
   list-style: none;
   z-index: 1;
 }
+.footer-nav li{
+  padding: 0;
+  text-align: left !important;
+ 
+}
 .footer-nav a{
   color: white;
-  margin: 0 15px; 
+  margin: 0 0.8rem; 
 }
 a:hover{
   color:var(--primary-yellow-color); 

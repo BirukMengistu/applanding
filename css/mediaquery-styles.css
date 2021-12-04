@@ -1,6 +1,6 @@
-@media (min-width: 768px) {
+@media (min-width: 780px) {
   .nav-header .container{
-        width: 100%;
+        width: 89%;
     }
     
     .navbar-toggler {
@@ -15,29 +15,47 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        padding: 0 1rem;
-        margin: 0 0.6rem;  
+          
+      
           }
+          .container .navbar-nav ul{
+            border : 1px solid red;
+            padding: 0 0.4rem;
+           margin: 0 0.4rem;
+          }  
+    .main-nav{
+      position: relative;
+      width:100%;
+      max-height:24rem ;
+      top:0;
+    }
    .main-nav::after{
     content: '';
     position: absolute;
     bottom: 0;
     width:100%;
-    height: 160%;
+    height: 200%;
     background: none;
     background: var(--primary-bluedark-color) url('/img/Group-4634@2x.png') ;
     outline: transparent;
     opacity: 95%;
     background-repeat: no-repeat; 
-    background-size: 100%;
+    background-size: 100% 100%;
     border-radius:12rem ;
     transform:rotate(-16deg);
    }
+   .main-nav  .header-card{
+    align-items: center; 
+    margin-top: -2rem;
+   
+   }
+   
    .header .header-card{
         width: 40%;
         justify-content: center;
         align-content: center;
         color: aliceblue;
+        line-height: 1rem;
       }
       .header .header-card h1{
         color:white ;
@@ -51,6 +69,28 @@
          width: 15rem;
          height: 25rem;
        }
+       
+       .footer-nav{
+        width:100%;
+        display: flex;
+        text-align: left;
+        justify-content: center;
+        padding: 0 0.5rem;
+        font-size: 1.4rem;
+        list-style: none;
+        z-index: 1;
+      
+      }
+      .footer-nav li{
+        padding: 0;
+        text-align: left !important;
+        
+      }
+      .footer-nav a{
+        color: white;
+        margin: 0 0.8rem; 
+      }
+      
           
   }
    
@@ -105,12 +145,33 @@
 
    
   @media (min-width: 720px) {
-    .container{
-        width: 720px;
-    }
+
     .swiper {
       width: 80vw;
     }
+    
+    .main-nav{
+      position: relative;
+      width:100%;
+      max-height:21rem ;
+      top:0;
+     
+    }
+   .main-nav::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width:100%;
+    height: 160%;
+    background: none;
+    background: var(--primary-bluedark-color) url('/img/Group-4634@2x.png') ;
+    outline: transparent;
+    opacity: 95%;
+    background-repeat: no-repeat; 
+    background-size: 100% 100%;
+    border-radius:0 0 12rem 12rem;
+    transform:rotate(-12deg);
+   }
    }
   
   @media (min-width: 905px) {
