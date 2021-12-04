@@ -1,36 +1,8 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400&display=swap');
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-:root{
-    --primary-bluedark-color: #1487FD;
-    --primary-bluelight-color: #42A0FF;
-    --primary-yellow-color:#FFBB00;
-    --primary-lightgrey-color:#8A8A8A;
-    --primary-darkgrey-color:#333333;
-    --primary-black-color:#111010;
-}
 
-  
-html, body {
-    font-family: 'Roboto', serif;
-    line-height: 1.5;
-  }
-   
-  
-  html, body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    line-height: 1.5;
-    scrollbar-width: none;
-    /* overflow-x: hidden; */
-  }
-  
-  body::-webkit-scrollbar {
-    display: none;
-  }
+
+/* CSS för section=Application FREDRIK */
+
 .container {
     width: 100%;
     margin: auto;
@@ -52,6 +24,8 @@ html, body {
   margin: auto;
   
 }
+
+
 #text-carousel h1{
   text-align: center;
   font-weight:bolder;
@@ -66,6 +40,8 @@ html, body {
   margin: 0;
   margin-bottom: 1rem;
 }
+
+
 
 /* Swiper */
 
@@ -91,42 +67,35 @@ html, body {
 }
 .active-slide img {
   transform: scale(1.2);
-
 }
 
 /* Swiper_END--Fredrik--*/
 
 
+
+
 /* Statistics -- Start -- Fredrik Lundkvist */
+
 
 .stats{
   display: grid;
   padding-bottom: 2rem;
   margin: auto;
 
-
   background-image: url('/img/carousel/Layer\ 815.png');
-
-
-
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
 }
-
-
 .text-stats{
   justify-content: space-between;
   align-items: center;
 }
-
 .text-stats h1{
   text-align: center;
   font-weight:bolder;
   font-size: 40px;
 }
-
-
 .text-stats p{
   margin-bottom: 1rem;
   margin-top: 1rem;
@@ -136,19 +105,12 @@ html, body {
   justify-content: center;
 }
 
-/* .bg-img{
-  position:absolute;
-  z-index: -1;
-  
-  border: 1px solid black;
-} */
+
 .grid-container{
   display: grid;
   align-items: center;
   justify-content: center;
- 
 }
-
 .grid-container h1{
   display: grid;
   margin: auto;
@@ -156,7 +118,6 @@ html, body {
   font-weight: bold;
   color:#3096FE ;
 }
-
 .grid-container p{
   justify-content: center;
   font-size: 20px;
@@ -166,30 +127,3 @@ html, body {
 }
 
 /* Carousel -end - Fredrik */
-
-
-
-/* @media (max-width: 540px){
-  .row{
-    display: grid;
-    justify-content: center;
-    align-items: center;
-  }
-@media (min-width: 540px){
-  .row{
-    display: grid;
-    justify-content: center;
-    align-items: center;
-  }
-  .col-sm h1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-} */
-
-
-
-
-
-
