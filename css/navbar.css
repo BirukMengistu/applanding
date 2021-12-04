@@ -148,6 +148,7 @@ a:hover{
             margin-right: 0.5rem;
             outline: 2px double var(--primary-yellow-color);
             outline-offset: 2px;
+            z-index: 3;
         }
   
       .header-svg{
@@ -173,6 +174,7 @@ a:hover{
         align-items: center; /* vertical alignment of items */
         line-height: 1rem; /* vertically size by height, line-height or padding */
         justify-content: center;
+        z-index: 1;
       }
       
     

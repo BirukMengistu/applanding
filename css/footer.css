@@ -57,6 +57,11 @@
 }
 a:hover{
   color:var(--primary-yellow-color); 
+<<<<<<< HEAD
+=======
+  text-decoration: none;
+  
+>>>>>>> fe54f397e0c4b036523c02884485a265b7c0ad9f
 }
 
 #footer .social-media{
@@ -82,3 +87,15 @@ a:hover{
   background-color: #ffbb00b4;
 }
 /* FOOTER_END--Fredrik */
+
+
+@media(max-width:  620px){
+  .footer-nav a{
+    font-size: smaller;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+
+
+  }
+}

@@ -55,6 +55,7 @@ html, body {
   padding-top: 3rem;
   padding-bottom: 5rem;
   margin: auto;
+  
 }
 
 
@@ -62,12 +63,15 @@ html, body {
   text-align: center;
   font-weight:bolder;
   font-size: 40px ;
+  margin-top: 2rem;
 }
 #text-carousel p{
   color: #8A8A8A;
   text-align: center;
   font-size: 16px;
   justify-content:center ;
+  margin: 0;
+  margin-bottom: 1rem;
 }
 
 
@@ -77,6 +81,7 @@ html, body {
  .swiper {
   width: 70vw;
   height: 100%;
+  
 } 
 .swiper-slide {
   background-position: center;
@@ -84,12 +89,14 @@ html, body {
   width: 80%;
   height: 100%;
   padding: 45px 30px !important;
+  
 }
 .swiper-slide img {
   align-items: center;
   justify-content: center;
   max-height: 350px;
   transition: transform 100ms ease;
+  
 }
 .active-slide img {
   transform: scale(1.2);
@@ -123,6 +130,8 @@ html, body {
   font-size: 40px;
 }
 .text-stats p{
+  margin-bottom: 1rem;
+  margin-top: 1rem;
   color: #8A8A8A;
   text-align: center;
   font-size: 16px;
