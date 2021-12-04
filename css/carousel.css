@@ -1,4 +1,8 @@
 
+
+
+/* CSS för section=Application FREDRIK */
+
 .container {
     width: 100%;
     margin: auto;
@@ -20,6 +24,8 @@
   margin: auto;
   
 }
+
+
 #text-carousel h1{
   text-align: center;
   font-weight:bolder;
@@ -34,6 +40,8 @@
   margin: 0;
   margin-bottom: 1rem;
 }
+
+
 
 /* Swiper */
 
@@ -59,42 +67,35 @@
 }
 .active-slide img {
   transform: scale(1.2);
-
 }
 
 /* Swiper_END--Fredrik--*/
 
 
+
+
 /* Statistics -- Start -- Fredrik Lundkvist */
+
 
 .stats{
   display: grid;
   padding-bottom: 2rem;
   margin: auto;
 
-
   background-image: url('/img/carousel/Layer\ 815.png');
-
-
-
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
 }
-
-
 .text-stats{
   justify-content: space-between;
   align-items: center;
 }
-
 .text-stats h1{
   text-align: center;
   font-weight:bolder;
   font-size: 40px;
 }
-
-
 .text-stats p{
   margin-bottom: 1rem;
   margin-top: 1rem;
@@ -104,19 +105,12 @@
   justify-content: center;
 }
 
-/* .bg-img{
-  position:absolute;
-  z-index: -1;
-  
-  border: 1px solid black;
-} */
+
 .grid-container{
   display: grid;
   align-items: center;
   justify-content: center;
- 
 }
-
 .grid-container h1{
   display: grid;
   margin: auto;
@@ -124,7 +118,6 @@
   font-weight: bold;
   color:#3096FE ;
 }
-
 .grid-container p{
   justify-content: center;
   font-size: 20px;
@@ -134,30 +127,3 @@
 }
 
 /* Carousel -end - Fredrik */
-
-
-
-/* @media (max-width: 540px){
-  .row{
-    display: grid;
-    justify-content: center;
-    align-items: center;
-  }
-@media (min-width: 540px){
-  .row{
-    display: grid;
-    justify-content: center;
-    align-items: center;
-  }
-  .col-sm h1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-} */
-
-
-
-
-
-
