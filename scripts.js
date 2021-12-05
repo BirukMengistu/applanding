@@ -35,6 +35,3 @@ var swiper = new Swiper(".mySwiper", {
 
 
 
-  $(function() {
-    AOS.init();
-});
