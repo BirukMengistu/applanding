@@ -55,9 +55,9 @@
   color: white;
   margin: 0 0.8rem; 
 }
-a:hover{
-  color:var(--primary-yellow-color); 
-  text-decoration: none;
+.footer-nav a:hover{
+  color:rgb(221, 188, 3); 
+  
   
 }
 
