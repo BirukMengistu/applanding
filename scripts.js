@@ -32,3 +32,9 @@ var swiper = new Swiper(".mySwiper", {
     }
   });
   new WOW().init();
+
+
+
+  $(function() {
+    AOS.init();
+});

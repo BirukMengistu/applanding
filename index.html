@@ -12,8 +12,10 @@
     <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/mediaquery-styles.css">
     <link rel="stylesheet" href="css/animation.css">
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
@@ -21,7 +23,6 @@
 
 </head>
 <body> 
- <!--  biruk  -->
   <div class ="main-nav" >
   <div class="nav-header">
     
@@ -44,7 +45,7 @@
     </div>
 </div>
 <div class="header">
-   <div class="header-card wow animate__animated animate__fadeInUp" data-wow-offset="400""> 
+   <div class="header-card"> 
      <h1>Creative Way to showcase Your App</h1>
      <p>Lorem ipsum dolor sit amet, 
          consectetur adipisicing elit. 
@@ -71,9 +72,9 @@
   </div>
      
 </div> 
- <!-- biruk end -->
+ 
 <!-- ABOUT US - JONAS ÅSTRÖM -->
- <section id="aboutus" class="wow animate__animated animate__fadeInLeft">
+ <section id="aboutus">
     <link rel="stylesheet" href="css/aboutus.css">
     <div class="container-logo">
       <div class="ec-logo"><IMG SRC="img/ec-logo-mono.png" alt="ec logo">
@@ -175,19 +176,18 @@
     
     <!-- Fredrik -->
     <section id="screens">
+      
       <div class="container-carousel">
-        <div id="text-carousel">
+        <div id="text-carousel"  data-aos="fade-down" data-aos-duration="900">
           <h1 id="h1-carousel"> Application Screens</h1>
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
           <p>Lorem Ipsum has been the industry's</p>
         </div>
         
-        <!-- Carousel -->
-        <!-- Swiper -->
         
-        <div class="swiper">
+        <div class="swiper"  data-aos="flip-up"  data-aos-delay="500" data-aos-duration="1300">
           
-          <div class="swiper mySwiper" data-aos="fade-up" data-aos-offset="400">
+          <div class="swiper mySwiper" data-aos-offset="500" data-aos-delay="200">
             <div class="swiper-wrapper">
               <div class="swiper-slide">
                 <img src="img/carousel/iPhone X - Light.png" />
@@ -219,11 +219,11 @@
       
       
       
-      
+      <!-- Fredrik  -->
+
       <!-- Statistics  -->
-      
       <div class="stats">
-        <div class="text-stats">
+        <div class="text-stats"  data-aos="fade-up" data-aos-delay="300" data-aos-duration="900">
           <h1> Application Statistics</h1>
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
           <p> Lorem Ipsum has been the industry's</p>
@@ -233,7 +233,7 @@
 
 
 
-        <div class="grid-container">
+        <div class="grid-container"  data-aos="fade-up" data-aos-delay="300"data-aos-duration="900" >
           <div class="row">
             <div class="col-sm w-50 mx-auto ">
               <h1 class="text-center">+1430</h1>
@@ -252,14 +252,11 @@
               <p>Downloads</p>
             </div>
           </div>
-        </div>
-
-
       </div>
-      
-      
-    </div>
+         
   </section>
+
+
 <!-- Hero Banner - Daniel Karlsson -->
     <section id="hero">
         <link rel="stylesheet" href="css/bannerstyles.css">
@@ -287,7 +284,7 @@
     </section>
 
     <!-- End Hero Banner -->
-<!--   Biruk  --contact  --  -->
+<!--     --contact  --  -->
 <section id="contactus">
   <div class='contact-header'>
     <h1>Contact Us</h1>
@@ -304,17 +301,17 @@
      </div> 
 </div>
 </section>
-<!--     --end contact  -- Biruk -->
+<!--     --end contact  --  -->
 
 <!-- FOOTER_START--Fredrik -->
 <section id="footer">
-  <h1>JOOD  <span>.</span></h1>
+  <h1>JOOD<span>.</span></h1>
   <ul class="footer-nav">
     <li class="foot-link "><a href="#">Home</a></li>
-    <li class="foot-link "><a href="#">About-Us</a></li>
+    <li class="foot-link "><a href="#">About Us</a></li>
     <li class="foot-link "><a href="#">Features</a></li>
     <li class="foot-link "><a href="#">Screens</a></li>
-    <li class="foot-link "><a href="#">Contact-Us</a></li>
+    <li class="foot-link "><a href="#">Contact Us</a></li>
   </ul>
   <div class="foot-bg">
     <img src="img/footer/Group 4634.png" alt="">
@@ -332,10 +329,12 @@
 
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 <script src="scripts.js"></script>
-<!-- Initialize Swiper -->
- <!-- JavaScript Bundle with Popper -->
- <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+
 
 </body>
 </html>
