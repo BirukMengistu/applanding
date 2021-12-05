@@ -100,7 +100,7 @@ html, body {
 }
 .features-sign img {
   margin-left: -3px;
-  margin-top: -3px;
+  margin-top: -12px;
 }
 .features-text {
   color: var(--primary-yellow-color);
